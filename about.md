@@ -1,12 +1,12 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
-feature-img: "img/sample_feature_img_2.png"
+feature-img: "img/images.png"
 ---
 
-Type Theme is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+### Hello Guys . . .
 
-Head over to the [theme's documentation](https://rohanchandra.github.io/project/type/) for much more information about Type Theme or to install this theme on your own Jekyll site.
+First of all, I would like to say thanks for visiting my personal site. FYI, this is my new site after my beloved <a href="http://nuryaumi.id/">nuryaumi.id</a> has passed away.
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+I'm Nur Yaumi and you can call me yaumi, omi, yom or whatever you like. I'm a yellow/orange lovers who love to learning everything about programming.
