@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Getting Started with React-Native
+date: 2017-05-02 16:00:00 +08:00
 ---
 
 I’ve decided to build my own mobile apps using React-Native even though i’ve never using React-Native before. So, the first thing that I did is looking for how to getting started with React-Native Development on Mac in the official site of <a href="https://facebook.github.io/react-native/">React-Native</a>.
