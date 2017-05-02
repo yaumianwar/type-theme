@@ -17,7 +17,7 @@ theme_settings:
      <h4>say hi@nuryaumi.id</h4>
   header_text_feature_image:
   footer_text: >
-   Copyright &copy; 2017 Nur Yaumi. Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+   &copy; 2017 Nur Yaumi. Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a> made with <i class="fa fa-heart heart-icon"></i>
 
   # Icons
   rss: false
