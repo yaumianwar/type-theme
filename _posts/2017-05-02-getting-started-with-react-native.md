@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Getting Started with React-Native
+description: 
+feature-img:
 date: 2017-05-02 16:00:00 +08:00
 ---
 

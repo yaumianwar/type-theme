@@ -1,12 +1,12 @@
 <head>
 	<meta charset="utf-8">
-	<meta property="og:url"                content="http://nuryaumi.id" />
-	<meta property="og:type"               content="article" />
-	<meta property="og:title"              content="Nur Yaumi Anwar" />
-	<meta property="og:description"        content="Thoughts, Stories and Ideas. say hi@nuryaumi.id" />
-	<meta property="og:image"              content="https://farm3.staticflickr.com/2863/34396544115_3056c4ee07_o_d.png" />
+<meta property="og:url" content="{% if page.url %}{{ page.url }}{% else %}{{ site.url }}{% endif %}" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+<meta property="og:image" content="{% if page.feature-img %}{{ page.feature-img }}{% else %}{{ site.img }}{% endif %}" />
 
-	<title>{% if page.title %}{{ page.title }} |{% endif %} {{ site.theme_settings.title }}</title>
+<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.theme_settings.description }}{% endif %}">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-Frame-Options" content="sameorigin">
