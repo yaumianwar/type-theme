@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: How To Deploy Django Project Using Apache Web Server
@@ -6,7 +5,7 @@ description:
 feature-img:
 date: 2017-05-15 12:15:00 +08:00
 ---
-## Requirements
+### Requirements
 
 - Ubuntu 16.04 Server running on VirtualBox 5.1.20
 - Apache Web Server 2.4.18
@@ -14,7 +13,7 @@ date: 2017-05-15 12:15:00 +08:00
 - Pip 8.1.1 Python(2.7)
 - Make sure that your Django Project can run on your server
 
-## Install and Enable mod_wsgi
+### Install and Enable mod_wsgi
 
 The mod_wsgi package implements a simple to use Apache module which can host any Python web application which supports the Python WSGI specification.
 Run the folllowing command below to install mod_wsgi:
@@ -25,7 +24,7 @@ Next, you will need to enable `mod_wsgi` Apache module. To do so, run the follow
 
 `sudo a2enmod wsgi`
 
-## Configure New VirtualHost for your Django Project
+### Configure New VirtualHost for your Django Project
 
 Run the following command, to make new VirtualHost configuration:
 
@@ -39,7 +38,7 @@ Enable the virtual host with the following command:
 
 `sudo a2ensite kotakide.conf`
 
-## Add wsgi file to your project
+### Add wsgi file to your project
 
 Create the `wsgi` file by running the following command:
 
@@ -70,7 +69,7 @@ Save the file and restart Apache to apply the changes:
 
 `sudo apachectl restart`
 
-## Static Files
+### Static Files
 
 You need to set your static files directory and generate the static files. Add new configuration in `settings.py` file like the following below :
 
@@ -85,7 +84,7 @@ Then run this following coommand:
 
 Restart Apache to apply the changes
 
-## Add the New Host on Your OS Host
+### Add the New Host on Your OS Host
 
 If you want your Django Project ca be accessed on your OS Host, add that host on `/etc/hosts` by the following format:
 
@@ -94,11 +93,11 @@ If you want your Django Project ca be accessed on your OS Host, add that host on
 example:
 `192.168.43.187 django-kotakide.com`
 
-## Testing
+### Testing
 
 To test your Django Project, open your web browser on your OS Host and type the URL/ServerName (http://yourdomain.com) that you entered in your virtual host configuration.
 
-### Several Result
+#### Several Result
 
 **SignUp Page**
 
